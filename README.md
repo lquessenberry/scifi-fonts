@@ -10,18 +10,29 @@ This repository contains a collection of science fiction themed font files (TTF 
 
 ### Direct Font URLs
 
-You can use the fonts directly in your CSS by linking to the raw GitHub URLs. For example:
+You can use the fonts directly in your CSS by linking to the raw GitHub URLs. We provide multiple formats (WOFF, EOT, and TTF) for better cross-browser compatibility. Example:
 
 ```css
 @font-face {
   font-family: 'Star Trek';
-  src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/fonts/trekerprise/Star Trek BT.TTF') format('truetype');
+  src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star_Trek_BT.eot');
+  src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star_Trek_BT.eot?#iefix') format('embedded-opentype'),
+       url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star_Trek_BT.woff') format('woff'),
+       url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/fonts/trekerprise/Star Trek BT.TTF') format('truetype');
 }
 
 .startrek-text {
   font-family: 'Star Trek', sans-serif;
 }
 ```
+
+### Font Formats
+
+This repository includes the following font formats for optimal cross-browser compatibility:
+
+- **TTF** (TrueType Font): Standard font format, works in most browsers
+- **WOFF** (Web Open Font Format): Compressed font format with better performance
+- **EOT** (Embedded OpenType): Required for older versions of Internet Explorer
 
 ### Available Font Collections
 
@@ -33,6 +44,8 @@ Star Trek inspired fonts:
 - Star Trek Film BT: Bold Star Trek movie-style typeface
 - Starfleet Bold Extended BT: Clean, futuristic Starfleet-inspired font
 - Star Trek Pi BT: Star Trek symbols and icons
+- Square 721 Condensed BT: Clean, condensed technical font commonly used in Star Trek displays
+- Venetian 301 BT: Elegant serif font used in some Star Trek publications
 
 ## Adding More Fonts
 

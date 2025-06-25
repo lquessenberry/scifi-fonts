@@ -1,0 +1,29 @@
+{
+  "name": "scifi-fonts",
+  "version": "1.0.0",
+  "description": "A collection of sci-fi themed fonts organized by theme and hosted on GitHub Pages for easy embedding in web projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert-fonts": "node scripts/convertFonts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lquessenberry/scifi-fonts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lquessenberry/scifi-fonts/issues"
+  },
+  "homepage": "https://github.com/lquessenberry/scifi-fonts#readme",
+  "devDependencies": {
+    "fontmin": "^2.0.0",
+    "ttf2eot": "^3.1.0",
+    "ttf2woff": "^3.0.0",
+    "ttf2woff2": "^8.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
