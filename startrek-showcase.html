@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Trek Fonts Showcase</title>
-    <!-- Link to the newly generated font CSS -->
-    <link rel="stylesheet" href="webfonts/all-fonts.css">
+    <!-- Link to the newly generated font CSS with site-rooted path for GitHub Pages -->
+    <link rel="stylesheet" href="/scifi-fonts/webfonts/all-fonts.css">
     <style id="github-pages-font-fix"></style>
     <style>
         :root {
@@ -511,8 +511,8 @@
             // Add more font configurations as needed
         };
 
-        // Load the font data from the JSON file
-        fetch('webfonts/all-fonts.json')
+        // Load the font data from the JSON file with site-rooted path for GitHub Pages
+        fetch('/scifi-fonts/webfonts/all-fonts.json')
             .then(response => response.json())
             .then(data => {
                 fonts = data;
