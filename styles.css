@@ -23,7 +23,7 @@ body {
     src: url('./webfonts/trekerprise/Star_Trek_BT.eot');
     src: url('./webfonts/trekerprise/Star_Trek_BT.eot?#iefix') format('embedded-opentype'),
          url('./webfonts/trekerprise/Star_Trek_BT.woff') format('woff'),
-         url('./fonts/trekerprise/Star Trek BT.TTF') format('truetype');
+         url('./webfonts/trekerprise/Star Trek BT.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,7 +33,7 @@ body {
     src: url('./webfonts/trekerprise/Star_Trek_Film_BT.eot');
     src: url('./webfonts/trekerprise/Star_Trek_Film_BT.eot?#iefix') format('embedded-opentype'),
          url('./webfonts/trekerprise/Star_Trek_Film_BT.woff') format('woff'),
-         url('./fonts/trekerprise/Star Trek Film BT.TTF') format('truetype');
+         url('./webfonts/trekerprise/Star Trek Film BT.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -43,7 +43,7 @@ body {
     src: url('./webfonts/trekerprise/Starfleet_Bold_Extended_BT.eot');
     src: url('./webfonts/trekerprise/Starfleet_Bold_Extended_BT.eot?#iefix') format('embedded-opentype'),
          url('./webfonts/trekerprise/Starfleet_Bold_Extended_BT.woff') format('woff'),
-         url('./fonts/trekerprise/Starfleet Bold Extended BT.TTF') format('truetype');
+         url('./webfonts/trekerprise/Starfleet Bold Extended BT.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -53,7 +53,7 @@ body {
     src: url('./webfonts/trekerprise/Square_721_Condensed_BT.eot');
     src: url('./webfonts/trekerprise/Square_721_Condensed_BT.eot?#iefix') format('embedded-opentype'),
          url('./webfonts/trekerprise/Square_721_Condensed_BT.woff') format('woff'),
-         url('./fonts/trekerprise/Square 721 Condensed BT.TTF') format('truetype');
+         url('./webfonts/trekerprise/Square 721 Condensed BT.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -63,7 +63,7 @@ body {
     src: url('./webfonts/trekerprise/Venetian_301_BT.eot');
     src: url('./webfonts/trekerprise/Venetian_301_BT.eot?#iefix') format('embedded-opentype'),
          url('./webfonts/trekerprise/Venetian_301_BT.woff') format('woff'),
-         url('./fonts/trekerprise/Venetian 301 BT.TTF') format('truetype');
+         url('./webfonts/trekerprise/Venetian 301 BT.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
