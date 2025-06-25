@@ -1,0 +1,41 @@
+{
+  "text-fonts": [
+    "Airborne-MOdr",
+    "AirborneIi-KOEp",
+    "AirborneIiPilot-243K",
+    "AirbornePilot-vZdO",
+    "DilithiumPixelsNbpRegular-B5jd",
+    "Okuda-A5PL",
+    "OkudaBold-qA72",
+    "OkudaBoldItalic-VDOz",
+    "OkudaItalic-JBma",
+    "Square_721_Condensed_BT",
+    "Star_Trek_BT",
+    "Star_Trek_Film_BT",
+    "Star_Trek_Pi_BT",
+    "Starfleet_Bold_Extended_BT",
+    "Straczynski-qpyx",
+    "StraczynskiBold-Vy00",
+    "StraczynskiBoldItalic-JVrE",
+    "StraczynskiItalic-GoBy",
+    "Venetian_301_BT"
+  ],
+  "title-fonts": [
+    "EdgeOfTheGalaxyItalic-ZVJB3",
+    "EdgeOfTheGalaxyPoster-3zRAp",
+    "EdgeOfTheGalaxyPosterItalic-x3o1m",
+    "EdgeOfTheGalaxyRegular-OVEa6",
+    "Probert-Vey6",
+    "ProbertBlack-JvV7",
+    "ProbertBlackItalic-GMom",
+    "ProbertBold-jqAl",
+    "ProbertBoldItalic-z1Ga",
+    "ProbertItalic-5K0L"
+  ],
+  "alien-fonts": [
+    "Kahless-X3oZG",
+    "KahlessPro-L3MJ3",
+    "KahlessShadow-PKwq7",
+    "Tellarite-opAd"
+  ]
+}

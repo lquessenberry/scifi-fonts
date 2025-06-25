@@ -1,0 +1,385 @@
+/* Modified font CSS with adjusted format priorities for browser compatibility */
+@font-face {
+  font-family: 'Airborne-MOdr';
+  src: url('/webfonts/trekerprise/text-fonts/Airborne-MOdr/Airborne-MOdr.eot');
+  src: url('/webfonts/trekerprise/text-fonts/Airborne-MOdr/Airborne-MOdr.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/Airborne-MOdr/Airborne-MOdr.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/Airborne-MOdr/Airborne-MOdr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AirborneIi-KOEp';
+  src: url('/webfonts/trekerprise/text-fonts/AirborneIi-KOEp/AirborneIi-KOEp.eot');
+  src: url('/webfonts/trekerprise/text-fonts/AirborneIi-KOEp/AirborneIi-KOEp.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/AirborneIi-KOEp/AirborneIi-KOEp.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/AirborneIi-KOEp/AirborneIi-KOEp.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AirborneIiPilot-243K';
+  src: url('/webfonts/trekerprise/text-fonts/AirborneIiPilot-243K/AirborneIiPilot-243K.eot');
+  src: url('/webfonts/trekerprise/text-fonts/AirborneIiPilot-243K/AirborneIiPilot-243K.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/AirborneIiPilot-243K/AirborneIiPilot-243K.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/AirborneIiPilot-243K/AirborneIiPilot-243K.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AirbornePilot-vZdO';
+  src: url('/webfonts/trekerprise/text-fonts/AirbornePilot-vZdO/AirbornePilot-vZdO.eot');
+  src: url('/webfonts/trekerprise/text-fonts/AirbornePilot-vZdO/AirbornePilot-vZdO.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/AirbornePilot-vZdO/AirbornePilot-vZdO.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/AirbornePilot-vZdO/AirbornePilot-vZdO.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DilithiumPixelsNbpRegular-B5jd';
+  src: url('/webfonts/trekerprise/text-fonts/DilithiumPixelsNbpRegular-B5jd/DilithiumPixelsNbpRegular-B5jd.eot');
+  src: url('/webfonts/trekerprise/text-fonts/DilithiumPixelsNbpRegular-B5jd/DilithiumPixelsNbpRegular-B5jd.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/DilithiumPixelsNbpRegular-B5jd/DilithiumPixelsNbpRegular-B5jd.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/DilithiumPixelsNbpRegular-B5jd/DilithiumPixelsNbpRegular-B5jd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EdgeOfTheGalaxyItalic-ZVJB3';
+  src: url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyItalic-ZVJB3/EdgeOfTheGalaxyItalic-ZVJB3.eot');
+  src: url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyItalic-ZVJB3/EdgeOfTheGalaxyItalic-ZVJB3.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyItalic-ZVJB3/EdgeOfTheGalaxyItalic-ZVJB3.woff') format('woff'),
+       url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyItalic-ZVJB3/EdgeOfTheGalaxyItalic-ZVJB3.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EdgeOfTheGalaxyPoster-3zRAp';
+  src: url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyPoster-3zRAp/EdgeOfTheGalaxyPoster-3zRAp.eot');
+  src: url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyPoster-3zRAp/EdgeOfTheGalaxyPoster-3zRAp.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyPoster-3zRAp/EdgeOfTheGalaxyPoster-3zRAp.woff') format('woff'),
+       url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyPoster-3zRAp/EdgeOfTheGalaxyPoster-3zRAp.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EdgeOfTheGalaxyPosterItalic-x3o1m';
+  src: url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyPosterItalic-x3o1m/EdgeOfTheGalaxyPosterItalic-x3o1m.eot');
+  src: url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyPosterItalic-x3o1m/EdgeOfTheGalaxyPosterItalic-x3o1m.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyPosterItalic-x3o1m/EdgeOfTheGalaxyPosterItalic-x3o1m.woff') format('woff'),
+       url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyPosterItalic-x3o1m/EdgeOfTheGalaxyPosterItalic-x3o1m.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EdgeOfTheGalaxyRegular-OVEa6';
+  src: url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyRegular-OVEa6/EdgeOfTheGalaxyRegular-OVEa6.eot');
+  src: url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyRegular-OVEa6/EdgeOfTheGalaxyRegular-OVEa6.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyRegular-OVEa6/EdgeOfTheGalaxyRegular-OVEa6.woff') format('woff'),
+       url('/webfonts/trekerprise/title-fonts/EdgeOfTheGalaxyRegular-OVEa6/EdgeOfTheGalaxyRegular-OVEa6.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kahless-X3oZG';
+  src: url('/webfonts/trekerprise/alien-fonts/Kahless-X3oZG/Kahless-X3oZG.eot');
+  src: url('/webfonts/trekerprise/alien-fonts/Kahless-X3oZG/Kahless-X3oZG.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/alien-fonts/Kahless-X3oZG/Kahless-X3oZG.woff') format('woff'),
+       url('/webfonts/trekerprise/alien-fonts/Kahless-X3oZG/Kahless-X3oZG.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KahlessPro-L3MJ3';
+  src: url('/webfonts/trekerprise/alien-fonts/KahlessPro-L3MJ3/KahlessPro-L3MJ3.eot');
+  src: url('/webfonts/trekerprise/alien-fonts/KahlessPro-L3MJ3/KahlessPro-L3MJ3.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/alien-fonts/KahlessPro-L3MJ3/KahlessPro-L3MJ3.woff') format('woff'),
+       url('/webfonts/trekerprise/alien-fonts/KahlessPro-L3MJ3/KahlessPro-L3MJ3.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KahlessShadow-PKwq7';
+  src: url('/webfonts/trekerprise/alien-fonts/KahlessShadow-PKwq7/KahlessShadow-PKwq7.eot');
+  src: url('/webfonts/trekerprise/alien-fonts/KahlessShadow-PKwq7/KahlessShadow-PKwq7.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/alien-fonts/KahlessShadow-PKwq7/KahlessShadow-PKwq7.woff') format('woff'),
+       url('/webfonts/trekerprise/alien-fonts/KahlessShadow-PKwq7/KahlessShadow-PKwq7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Okuda-A5PL';
+  src: url('/webfonts/trekerprise/text-fonts/Okuda-A5PL/Okuda-A5PL.eot');
+  src: url('/webfonts/trekerprise/text-fonts/Okuda-A5PL/Okuda-A5PL.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/Okuda-A5PL/Okuda-A5PL.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/Okuda-A5PL/Okuda-A5PL.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OkudaBold-qA72';
+  src: url('/webfonts/trekerprise/text-fonts/OkudaBold-qA72/OkudaBold-qA72.eot');
+  src: url('/webfonts/trekerprise/text-fonts/OkudaBold-qA72/OkudaBold-qA72.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/OkudaBold-qA72/OkudaBold-qA72.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/OkudaBold-qA72/OkudaBold-qA72.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OkudaBoldItalic-VDOz';
+  src: url('/webfonts/trekerprise/text-fonts/OkudaBoldItalic-VDOz/OkudaBoldItalic-VDOz.eot');
+  src: url('/webfonts/trekerprise/text-fonts/OkudaBoldItalic-VDOz/OkudaBoldItalic-VDOz.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/OkudaBoldItalic-VDOz/OkudaBoldItalic-VDOz.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/OkudaBoldItalic-VDOz/OkudaBoldItalic-VDOz.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OkudaItalic-JBma';
+  src: url('/webfonts/trekerprise/text-fonts/OkudaItalic-JBma/OkudaItalic-JBma.eot');
+  src: url('/webfonts/trekerprise/text-fonts/OkudaItalic-JBma/OkudaItalic-JBma.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/OkudaItalic-JBma/OkudaItalic-JBma.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/OkudaItalic-JBma/OkudaItalic-JBma.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Probert-Vey6';
+  src: url('/webfonts/trekerprise/title-fonts/Probert-Vey6/Probert-Vey6.eot');
+  src: url('/webfonts/trekerprise/title-fonts/Probert-Vey6/Probert-Vey6.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/title-fonts/Probert-Vey6/Probert-Vey6.woff') format('woff'),
+       url('/webfonts/trekerprise/title-fonts/Probert-Vey6/Probert-Vey6.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ProbertBlack-JvV7';
+  src: url('/webfonts/trekerprise/title-fonts/ProbertBlack-JvV7/ProbertBlack-JvV7.eot');
+  src: url('/webfonts/trekerprise/title-fonts/ProbertBlack-JvV7/ProbertBlack-JvV7.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/title-fonts/ProbertBlack-JvV7/ProbertBlack-JvV7.woff') format('woff'),
+       url('/webfonts/trekerprise/title-fonts/ProbertBlack-JvV7/ProbertBlack-JvV7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ProbertBlackItalic-GMom';
+  src: url('/webfonts/trekerprise/title-fonts/ProbertBlackItalic-GMom/ProbertBlackItalic-GMom.eot');
+  src: url('/webfonts/trekerprise/title-fonts/ProbertBlackItalic-GMom/ProbertBlackItalic-GMom.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/title-fonts/ProbertBlackItalic-GMom/ProbertBlackItalic-GMom.woff') format('woff'),
+       url('/webfonts/trekerprise/title-fonts/ProbertBlackItalic-GMom/ProbertBlackItalic-GMom.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ProbertBold-jqAl';
+  src: url('/webfonts/trekerprise/title-fonts/ProbertBold-jqAl/ProbertBold-jqAl.eot');
+  src: url('/webfonts/trekerprise/title-fonts/ProbertBold-jqAl/ProbertBold-jqAl.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/title-fonts/ProbertBold-jqAl/ProbertBold-jqAl.woff') format('woff'),
+       url('/webfonts/trekerprise/title-fonts/ProbertBold-jqAl/ProbertBold-jqAl.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ProbertBoldItalic-z1Ga';
+  src: url('/webfonts/trekerprise/title-fonts/ProbertBoldItalic-z1Ga/ProbertBoldItalic-z1Ga.eot');
+  src: url('/webfonts/trekerprise/title-fonts/ProbertBoldItalic-z1Ga/ProbertBoldItalic-z1Ga.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/title-fonts/ProbertBoldItalic-z1Ga/ProbertBoldItalic-z1Ga.woff') format('woff'),
+       url('/webfonts/trekerprise/title-fonts/ProbertBoldItalic-z1Ga/ProbertBoldItalic-z1Ga.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ProbertItalic-5K0L';
+  src: url('/webfonts/trekerprise/title-fonts/ProbertItalic-5K0L/ProbertItalic-5K0L.eot');
+  src: url('/webfonts/trekerprise/title-fonts/ProbertItalic-5K0L/ProbertItalic-5K0L.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/title-fonts/ProbertItalic-5K0L/ProbertItalic-5K0L.woff') format('woff'),
+       url('/webfonts/trekerprise/title-fonts/ProbertItalic-5K0L/ProbertItalic-5K0L.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Square 721 Condensed BT';
+  src: url('/webfonts/trekerprise/text-fonts/Square_721_Condensed_BT/Square_721_Condensed_BT.eot');
+  src: url('/webfonts/trekerprise/text-fonts/Square_721_Condensed_BT/Square_721_Condensed_BT.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/Square_721_Condensed_BT/Square_721_Condensed_BT.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/Square_721_Condensed_BT/Square_721_Condensed_BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Star Trek BT';
+  src: url('/webfonts/trekerprise/text-fonts/Star_Trek_BT/Star_Trek_BT.eot'); src: url('/webfonts/trekerprise/text-fonts/Star_Trek_BT/Star_Trek_BT.eot?#iefix') format('embedded-opentype'), url('/webfonts/trekerprise/text-fonts/Star_Trek_BT/Star_Trek_BT.woff') format('woff');
+  src: url('/webfonts/trekerprise/text-fonts/Star_Trek_BT/Star_Trek_BT.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/Star_Trek_BT/Star_Trek_BT.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/Star_Trek_BT/Star_Trek_BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Star Trek Film BT';
+  src: url('/webfonts/trekerprise/text-fonts/Star_Trek_Film_BT/Star_Trek_Film_BT.eot'); src: url('/webfonts/trekerprise/text-fonts/Star_Trek_Film_BT/Star_Trek_Film_BT.eot?#iefix') format('embedded-opentype'), url('/webfonts/trekerprise/text-fonts/Star_Trek_Film_BT/Star_Trek_Film_BT.woff') format('woff');
+  src: url('/webfonts/trekerprise/text-fonts/Star_Trek_Film_BT/Star_Trek_Film_BT.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/Star_Trek_Film_BT/Star_Trek_Film_BT.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/Star_Trek_Film_BT/Star_Trek_Film_BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Star Trek Pi BT';
+  src: url('/webfonts/trekerprise/text-fonts/Star_Trek_Pi_BT/Star_Trek_Pi_BT.eot'); src: url('/webfonts/trekerprise/text-fonts/Star_Trek_Pi_BT/Star_Trek_Pi_BT.eot?#iefix') format('embedded-opentype'), url('/webfonts/trekerprise/text-fonts/Star_Trek_Pi_BT/Star_Trek_Pi_BT.woff') format('woff');
+  src: url('/webfonts/trekerprise/text-fonts/Star_Trek_Pi_BT/Star_Trek_Pi_BT.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/Star_Trek_Pi_BT/Star_Trek_Pi_BT.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/Star_Trek_Pi_BT/Star_Trek_Pi_BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Starfleet Bold Extended BT';
+  src: url('/webfonts/trekerprise/text-fonts/Starfleet_Bold_Extended_BT/Starfleet_Bold_Extended_BT.eot'); src: url('/webfonts/trekerprise/text-fonts/Starfleet_Bold_Extended_BT/Starfleet_Bold_Extended_BT.eot?#iefix') format('embedded-opentype'), url('/webfonts/trekerprise/text-fonts/Starfleet_Bold_Extended_BT/Starfleet_Bold_Extended_BT.woff') format('woff');
+  src: url('/webfonts/trekerprise/text-fonts/Starfleet_Bold_Extended_BT/Starfleet_Bold_Extended_BT.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/Starfleet_Bold_Extended_BT/Starfleet_Bold_Extended_BT.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/Starfleet_Bold_Extended_BT/Starfleet_Bold_Extended_BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Straczynski-qpyx';
+  src: url('/webfonts/trekerprise/text-fonts/Straczynski-qpyx/Straczynski-qpyx.eot');
+  src: url('/webfonts/trekerprise/text-fonts/Straczynski-qpyx/Straczynski-qpyx.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/Straczynski-qpyx/Straczynski-qpyx.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/Straczynski-qpyx/Straczynski-qpyx.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'StraczynskiBold-Vy00';
+  src: url('/webfonts/trekerprise/text-fonts/StraczynskiBold-Vy00/StraczynskiBold-Vy00.eot');
+  src: url('/webfonts/trekerprise/text-fonts/StraczynskiBold-Vy00/StraczynskiBold-Vy00.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/StraczynskiBold-Vy00/StraczynskiBold-Vy00.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/StraczynskiBold-Vy00/StraczynskiBold-Vy00.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'StraczynskiBoldItalic-JVrE';
+  src: url('/webfonts/trekerprise/text-fonts/StraczynskiBoldItalic-JVrE/StraczynskiBoldItalic-JVrE.eot');
+  src: url('/webfonts/trekerprise/text-fonts/StraczynskiBoldItalic-JVrE/StraczynskiBoldItalic-JVrE.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/StraczynskiBoldItalic-JVrE/StraczynskiBoldItalic-JVrE.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/StraczynskiBoldItalic-JVrE/StraczynskiBoldItalic-JVrE.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'StraczynskiItalic-GoBy';
+  src: url('/webfonts/trekerprise/text-fonts/StraczynskiItalic-GoBy/StraczynskiItalic-GoBy.eot');
+  src: url('/webfonts/trekerprise/text-fonts/StraczynskiItalic-GoBy/StraczynskiItalic-GoBy.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/StraczynskiItalic-GoBy/StraczynskiItalic-GoBy.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/StraczynskiItalic-GoBy/StraczynskiItalic-GoBy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tellarite-opAd';
+  src: url('/webfonts/trekerprise/alien-fonts/Tellarite-opAd/Tellarite-opAd.eot');
+  src: url('/webfonts/trekerprise/alien-fonts/Tellarite-opAd/Tellarite-opAd.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/alien-fonts/Tellarite-opAd/Tellarite-opAd.woff') format('woff'),
+       url('/webfonts/trekerprise/alien-fonts/Tellarite-opAd/Tellarite-opAd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Venetian 301 BT';
+  src: url('/webfonts/trekerprise/text-fonts/Venetian_301_BT/Venetian_301_BT.eot');
+  src: url('/webfonts/trekerprise/text-fonts/Venetian_301_BT/Venetian_301_BT.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/trekerprise/text-fonts/Venetian_301_BT/Venetian_301_BT.woff') format('woff'),
+       url('/webfonts/trekerprise/text-fonts/Venetian_301_BT/Venetian_301_BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WorldOfScifi-K7DvZ';
+  src: url('/webfonts/sci-fi/title-fonts/WorldOfScifi-K7DvZ/WorldOfScifi-K7DvZ.eot');
+  src: url('/webfonts/sci-fi/title-fonts/WorldOfScifi-K7DvZ/WorldOfScifi-K7DvZ.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/sci-fi/title-fonts/WorldOfScifi-K7DvZ/WorldOfScifi-K7DvZ.woff') format('woff'),
+       url('/webfonts/sci-fi/title-fonts/WorldOfScifi-K7DvZ/WorldOfScifi-K7DvZ.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WorldOfScifi-MVq7B';
+  src: url('/webfonts/sci-fi/title-fonts/WorldOfScifi-MVq7B/WorldOfScifi-MVq7B.eot');
+  src: url('/webfonts/sci-fi/title-fonts/WorldOfScifi-MVq7B/WorldOfScifi-MVq7B.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/sci-fi/title-fonts/WorldOfScifi-MVq7B/WorldOfScifi-MVq7B.woff') format('woff'),
+       url('/webfonts/sci-fi/title-fonts/WorldOfScifi-MVq7B/WorldOfScifi-MVq7B.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

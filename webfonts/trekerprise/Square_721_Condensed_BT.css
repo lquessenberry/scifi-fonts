@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Square 721 Condensed BT';
+  src: url('Square_721_Condensed_BT.eot');
+  src: url('Square_721_Condensed_BT.eot?#iefix') format('embedded-opentype'),
+       url('Square_721_Condensed_BT.woff') format('woff'),
+       url('Square_721_Condensed_BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

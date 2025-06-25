@@ -1,0 +1,332 @@
+/* Star Trek Web Fonts */
+
+/* Trek Movie 2 - title-fonts */
+@font-face {
+  font-family: 'Trek Movie 2';
+  src: url('/webfonts/startrek/title-fonts/Trek_Movie_2/Trek_Movie_2.eot');
+  src: url('/webfonts/startrek/title-fonts/Trek_Movie_2/Trek_Movie_2.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/title-fonts/Trek_Movie_2/Trek_Movie_2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Trek Movie 1 - title-fonts */
+@font-face {
+  font-family: 'Trek Movie 1';
+  src: url('/webfonts/startrek/title-fonts/Trek_Movie_1/Trek_Movie_1.eot');
+  src: url('/webfonts/startrek/title-fonts/Trek_Movie_1/Trek_Movie_1.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/title-fonts/Trek_Movie_1/Trek_Movie_1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* TOS Title - title-fonts */
+@font-face {
+  font-family: 'TOS Title';
+  src: url('/webfonts/startrek/title-fonts/TOS_Title/TOS_Title.eot');
+  src: url('/webfonts/startrek/title-fonts/TOS_Title/TOS_Title.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/title-fonts/TOS_Title/TOS_Title.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* TNG Title - title-fonts */
+@font-face {
+  font-family: 'TNG Title';
+  src: url('/webfonts/startrek/title-fonts/TNG_Title/TNG_Title.eot');
+  src: url('/webfonts/startrek/title-fonts/TNG_Title/TNG_Title.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/title-fonts/TNG_Title/TNG_Title.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Nova Light Ultra Thin - title-fonts */
+@font-face {
+  font-family: 'Nova Light Ultra Thin';
+  src: url('/webfonts/startrek/title-fonts/Nova_Light_Ultra_Thin/Nova_Light_Ultra_Thin.eot');
+  src: url('/webfonts/startrek/title-fonts/Nova_Light_Ultra_Thin/Nova_Light_Ultra_Thin.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/title-fonts/Nova_Light_Ultra_Thin/Nova_Light_Ultra_Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Nova Light Ultra - title-fonts */
+@font-face {
+  font-family: 'Nova Light Ultra';
+  src: url('/webfonts/startrek/title-fonts/Nova_Light_Ultra/Nova_Light_Ultra.eot');
+  src: url('/webfonts/startrek/title-fonts/Nova_Light_Ultra/Nova_Light_Ultra.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/title-fonts/Nova_Light_Ultra/Nova_Light_Ultra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Montalban - title-fonts */
+@font-face {
+  font-family: 'Montalban';
+  src: url('/webfonts/startrek/title-fonts/Montalban/Montalban.eot');
+  src: url('/webfonts/startrek/title-fonts/Montalban/Montalban.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/title-fonts/Montalban/Montalban.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Final Frontier - title-fonts */
+@font-face {
+  font-family: 'Final Frontier';
+  src: url('/webfonts/startrek/title-fonts/Final_Frontier/Final_Frontier.eot');
+  src: url('/webfonts/startrek/title-fonts/Final_Frontier/Final_Frontier.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/title-fonts/Final_Frontier/Final_Frontier.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DS9 Title - title-fonts */
+@font-face {
+  font-family: 'DS9 Title';
+  src: url('/webfonts/startrek/title-fonts/DS9_Title/DS9_Title.eot');
+  src: url('/webfonts/startrek/title-fonts/DS9_Title/DS9_Title.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/title-fonts/DS9_Title/DS9_Title.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DS9 Credits - title-fonts */
+@font-face {
+  font-family: 'DS9 Credits';
+  src: url('/webfonts/startrek/title-fonts/DS9_Credits/DS9_Credits.eot');
+  src: url('/webfonts/startrek/title-fonts/DS9_Credits/DS9_Credits.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/title-fonts/DS9_Credits/DS9_Credits.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Trekbats - text-fonts */
+@font-face {
+  font-family: 'Trekbats';
+  src: url('/webfonts/startrek/text-fonts/Trekbats/Trekbats.eot');
+  src: url('/webfonts/startrek/text-fonts/Trekbats/Trekbats.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/text-fonts/Trekbats/Trekbats.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Trek TNG Monitors - text-fonts */
+@font-face {
+  font-family: 'Trek TNG Monitors';
+  src: url('/webfonts/startrek/text-fonts/Trek_TNG_Monitors/Trek_TNG_Monitors.eot');
+  src: url('/webfonts/startrek/text-fonts/Trek_TNG_Monitors/Trek_TNG_Monitors.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/text-fonts/Trek_TNG_Monitors/Trek_TNG_Monitors.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Starfleet 2 - text-fonts */
+@font-face {
+  font-family: 'Starfleet 2';
+  src: url('/webfonts/startrek/text-fonts/Starfleet_2/Starfleet_2.eot');
+  src: url('/webfonts/startrek/text-fonts/Starfleet_2/Starfleet_2.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/text-fonts/Starfleet_2/Starfleet_2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Starfleet 1 - text-fonts */
+@font-face {
+  font-family: 'Starfleet 1';
+  src: url('/webfonts/startrek/text-fonts/Starfleet_1/Starfleet_1.eot');
+  src: url('/webfonts/startrek/text-fonts/Starfleet_1/Starfleet_1.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/text-fonts/Starfleet_1/Starfleet_1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Federation Wide - text-fonts */
+@font-face {
+  font-family: 'Federation Wide';
+  src: url('/webfonts/startrek/text-fonts/Federation_Wide/Federation_Wide.eot');
+  src: url('/webfonts/startrek/text-fonts/Federation_Wide/Federation_Wide.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/text-fonts/Federation_Wide/Federation_Wide.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Federation - text-fonts */
+@font-face {
+  font-family: 'Federation';
+  src: url('/webfonts/startrek/text-fonts/Federation/Federation.eot');
+  src: url('/webfonts/startrek/text-fonts/Federation/Federation.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/text-fonts/Federation/Federation.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Context Ultra Condensed Bold - text-fonts */
+@font-face {
+  font-family: 'Context Ultra Condensed Bold';
+  src: url('/webfonts/startrek/text-fonts/Context_Ultra_Condensed_Bold/Context_Ultra_Condensed_Bold.eot');
+  src: url('/webfonts/startrek/text-fonts/Context_Ultra_Condensed_Bold/Context_Ultra_Condensed_Bold.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/text-fonts/Context_Ultra_Condensed_Bold/Context_Ultra_Condensed_Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Context Ultra Condensed - text-fonts */
+@font-face {
+  font-family: 'Context Ultra Condensed';
+  src: url('/webfonts/startrek/text-fonts/Context_Ultra_Condensed/Context_Ultra_Condensed.eot');
+  src: url('/webfonts/startrek/text-fonts/Context_Ultra_Condensed/Context_Ultra_Condensed.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/text-fonts/Context_Ultra_Condensed/Context_Ultra_Condensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Beijing - text-fonts */
+@font-face {
+  font-family: 'Beijing';
+  src: url('/webfonts/startrek/text-fonts/Beijing/Beijing.eot');
+  src: url('/webfonts/startrek/text-fonts/Beijing/Beijing.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/text-fonts/Beijing/Beijing.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Vulcan - alien-fonts */
+@font-face {
+  font-family: 'Vulcan';
+  src: url('/webfonts/startrek/alien-fonts/Vulcan/Vulcan.eot');
+  src: url('/webfonts/startrek/alien-fonts/Vulcan/Vulcan.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Vulcan/Vulcan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Trill - alien-fonts */
+@font-face {
+  font-family: 'Trill';
+  src: url('/webfonts/startrek/alien-fonts/Trill/Trill.eot');
+  src: url('/webfonts/startrek/alien-fonts/Trill/Trill.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Trill/Trill.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Tholian - alien-fonts */
+@font-face {
+  font-family: 'Tholian';
+  src: url('/webfonts/startrek/alien-fonts/Tholian/Tholian.eot');
+  src: url('/webfonts/startrek/alien-fonts/Tholian/Tholian.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Tholian/Tholian.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Romulan - alien-fonts */
+@font-face {
+  font-family: 'Romulan';
+  src: url('/webfonts/startrek/alien-fonts/Romulan/Romulan.eot');
+  src: url('/webfonts/startrek/alien-fonts/Romulan/Romulan.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Romulan/Romulan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Klingon - alien-fonts */
+@font-face {
+  font-family: 'Klingon';
+  src: url('/webfonts/startrek/alien-fonts/Klingon/Klingon.eot');
+  src: url('/webfonts/startrek/alien-fonts/Klingon/Klingon.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Klingon/Klingon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Ferengi - alien-fonts */
+@font-face {
+  font-family: 'Ferengi';
+  src: url('/webfonts/startrek/alien-fonts/Ferengi/Ferengi.eot');
+  src: url('/webfonts/startrek/alien-fonts/Ferengi/Ferengi.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Ferengi/Ferengi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fabrini - alien-fonts */
+@font-face {
+  font-family: 'Fabrini';
+  src: url('/webfonts/startrek/alien-fonts/Fabrini/Fabrini.eot');
+  src: url('/webfonts/startrek/alien-fonts/Fabrini/Fabrini.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Fabrini/Fabrini.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Dominion - alien-fonts */
+@font-face {
+  font-family: 'Dominion';
+  src: url('/webfonts/startrek/alien-fonts/Dominion/Dominion.eot');
+  src: url('/webfonts/startrek/alien-fonts/Dominion/Dominion.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Dominion/Dominion.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Cardassian - alien-fonts */
+@font-face {
+  font-family: 'Cardassian';
+  src: url('/webfonts/startrek/alien-fonts/Cardassian/Cardassian.eot');
+  src: url('/webfonts/startrek/alien-fonts/Cardassian/Cardassian.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Cardassian/Cardassian.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Borg - alien-fonts */
+@font-face {
+  font-family: 'Borg';
+  src: url('/webfonts/startrek/alien-fonts/Borg/Borg.eot');
+  src: url('/webfonts/startrek/alien-fonts/Borg/Borg.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Borg/Borg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bajoran - alien-fonts */
+@font-face {
+  font-family: 'Bajoran';
+  src: url('/webfonts/startrek/alien-fonts/Bajoran/Bajoran.eot');
+  src: url('/webfonts/startrek/alien-fonts/Bajoran/Bajoran.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/startrek/alien-fonts/Bajoran/Bajoran.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+

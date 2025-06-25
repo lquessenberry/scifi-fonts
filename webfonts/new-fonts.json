@@ -1,0 +1,184 @@
+{
+  "sci-fi-fonts": [],
+  "title-fonts": [
+    {
+      "name": "WorldOfScifi",
+      "cleanName": "WorldOfScifi",
+      "sourceDir": "sci-fi"
+    },
+    {
+      "name": "WorldOfScifi",
+      "cleanName": "WorldOfScifi",
+      "sourceDir": "sci-fi"
+    },
+    {
+      "name": "EdgeOfTheGalaxyItalic",
+      "cleanName": "EdgeOfTheGalaxyItalic",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "EdgeOfTheGalaxyPoster",
+      "cleanName": "EdgeOfTheGalaxyPoster",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "EdgeOfTheGalaxyPosterItalic",
+      "cleanName": "EdgeOfTheGalaxyPosterItalic",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "EdgeOfTheGalaxyRegular",
+      "cleanName": "EdgeOfTheGalaxyRegular",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "Probert",
+      "cleanName": "Probert",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "ProbertBlack",
+      "cleanName": "ProbertBlack",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "ProbertBlackItalic",
+      "cleanName": "ProbertBlackItalic",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "ProbertBold",
+      "cleanName": "ProbertBold",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "ProbertBoldItalic",
+      "cleanName": "ProbertBoldItalic",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "ProbertItalic",
+      "cleanName": "ProbertItalic",
+      "sourceDir": "trekerprise"
+    }
+  ],
+  "text-fonts": [
+    {
+      "name": "Airborne",
+      "cleanName": "Airborne",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "AirborneIi",
+      "cleanName": "AirborneIi",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "AirborneIiPilot",
+      "cleanName": "AirborneIiPilot",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "AirbornePilot",
+      "cleanName": "AirbornePilot",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "DilithiumPixelsNbpRegular",
+      "cleanName": "DilithiumPixelsNbpRegular",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "Okuda",
+      "cleanName": "Okuda",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "OkudaBold",
+      "cleanName": "OkudaBold",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "OkudaBoldItalic",
+      "cleanName": "OkudaBoldItalic",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "OkudaItalic",
+      "cleanName": "OkudaItalic",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "Square 721 Condensed BT.TTF",
+      "cleanName": "Square_721_Condensed_BT_TTF",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "Star Trek BT.TTF",
+      "cleanName": "Star_Trek_BT_TTF",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "Star Trek Film BT.TTF",
+      "cleanName": "Star_Trek_Film_BT_TTF",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "Star Trek Pi BT.TTF",
+      "cleanName": "Star_Trek_Pi_BT_TTF",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "Starfleet Bold Extended BT.TTF",
+      "cleanName": "Starfleet_Bold_Extended_BT_TTF",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "Straczynski",
+      "cleanName": "Straczynski",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "StraczynskiBold",
+      "cleanName": "StraczynskiBold",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "StraczynskiBoldItalic",
+      "cleanName": "StraczynskiBoldItalic",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "StraczynskiItalic",
+      "cleanName": "StraczynskiItalic",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "Venetian 301 BT.TTF",
+      "cleanName": "Venetian_301_BT_TTF",
+      "sourceDir": "trekerprise"
+    }
+  ],
+  "alien-fonts": [
+    {
+      "name": "Kahless",
+      "cleanName": "Kahless",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "KahlessPro",
+      "cleanName": "KahlessPro",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "KahlessShadow",
+      "cleanName": "KahlessShadow",
+      "sourceDir": "trekerprise"
+    },
+    {
+      "name": "Tellarite",
+      "cleanName": "Tellarite",
+      "sourceDir": "trekerprise"
+    }
+  ]
+}

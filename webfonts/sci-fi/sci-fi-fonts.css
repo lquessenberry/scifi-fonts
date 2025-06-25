@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'WorldOfScifi-K7DvZ';
+  src: url('/title-fonts/WorldOfScifi-K7DvZ/WorldOfScifi-K7DvZ.eot');
+  src: url('/title-fonts/WorldOfScifi-K7DvZ/WorldOfScifi-K7DvZ.eot?#iefix') format('embedded-opentype'),
+       url('/title-fonts/WorldOfScifi-K7DvZ/WorldOfScifi-K7DvZ.woff') format('woff'),
+       url('/title-fonts/WorldOfScifi-K7DvZ/WorldOfScifi-K7DvZ.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WorldOfScifi-MVq7B';
+  src: url('/title-fonts/WorldOfScifi-MVq7B/WorldOfScifi-MVq7B.eot');
+  src: url('/title-fonts/WorldOfScifi-MVq7B/WorldOfScifi-MVq7B.eot?#iefix') format('embedded-opentype'),
+       url('/title-fonts/WorldOfScifi-MVq7B/WorldOfScifi-MVq7B.woff') format('woff'),
+       url('/title-fonts/WorldOfScifi-MVq7B/WorldOfScifi-MVq7B.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

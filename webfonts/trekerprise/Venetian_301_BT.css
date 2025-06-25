@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Venetian 301 BT';
+  src: url('Venetian_301_BT.eot');
+  src: url('Venetian_301_BT.eot?#iefix') format('embedded-opentype'),
+       url('Venetian_301_BT.woff') format('woff'),
+       url('Venetian_301_BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

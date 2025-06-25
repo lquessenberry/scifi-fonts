@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Star Trek BT';
+  src: url('Star_Trek_BT.eot');
+  src: url('Star_Trek_BT.eot?#iefix') format('embedded-opentype'),
+       url('Star_Trek_BT.woff') format('woff'),
+       url('Star_Trek_BT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

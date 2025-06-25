@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Trek Fonts Showcase</title>
+    <!-- Link to the newly generated font CSS -->
+    <link rel="stylesheet" href="webfonts/all-fonts.css">
+    <style id="github-pages-font-fix"></style>
+    <style>
+        :root {
+            --primary-color: #1a54a8;
+            --secondary-color: #e4e9f2;
+            --accent-color: #ffcc00;
+            --dark-bg: #121212;
+            --light-bg: #f8f9fa;
+            --text-color: #333;
+            --heading-color: #000;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        .main-content {
+            display: flex;
+            flex: 1;
+        }
+        
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            z-index: 1000;
+        }
+        
+        #content {
+            display: none;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .content-area {
+            flex: 1;
+            padding: 0 20px;
+        }
+        
+        .nav-sidebar {
+            width: 250px;
+            background-color: var(--dark-bg);
+            color: white;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        
+        .nav-tabs {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+        }
+        
+        .nav-tabs li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .nav-tabs li a {
+            display: block;
+            padding: 8px 15px;
+            background-color: var(--dark-bg);
+            color: white;
+            border-bottom: 3px solid transparent;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .nav-tabs li a.active {
+            border-bottom: 3px solid var(--accent-color);
+        }
+        
+        .nav-content {
+            display: none;
+        }
+        
+        .nav-content.active {
+            display: block;
+        }
+        
+        .font-link {
+            display: block;
+            padding: 8px 0;
+            color: white;
+            text-decoration: none;
+            border-left: 3px solid transparent;
+            padding-left: 10px;
+            margin-bottom: 5px;
+            transition: all 0.2s ease;
+        }
+        
+        .font-link:hover {
+            border-left: 3px solid var(--accent-color);
+            background-color: rgba(255,255,255,0.1);
+            padding-left: 15px;
+        }
+        
+        .nav-header {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        header {
+            background-color: var(--dark-bg);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+            border-bottom: 5px solid var(--accent-color);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-family: 'TNG Title', 'Arial', sans-serif;
+            letter-spacing: 1px;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+        
+        section {
+            margin-bottom: 50px;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--accent-color);
+            font-family: 'Federation', 'Arial', sans-serif;
+        }
+        
+        .font-category {
+            background-color: var(--secondary-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .font-category h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            text-transform: capitalize;
+        }
+        
+        .fonts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+            gap: 30px;
+        }
+        
+        .font-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .font-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .font-name {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: var(--heading-color);
+        }
+        
+        .font-sample {
+            padding: 15px;
+            background-color: var(--secondary-color);
+            border-radius: 4px;
+            margin: 15px 0;
+            font-size: 1.2rem;
+            line-height: 1.4;
+            min-height: 120px;
+        }
+        
+        .code-block {
+            background-color: var(--dark-bg);
+            color: white;
+            padding: 15px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        .button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .button:hover {
+            opacity: 0.9;
+        }
+        
+        .copy-button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 15px;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+        
+        .copy-button:hover {
+            background-color: var(--accent-color);
+            color: var(--dark-bg);
+        }
+        
+        .pair-example {
+            background-color: var(--secondary-color);
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .pair-example h4 {
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+        
+        .pair-card h3 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--dark-bg);
+            color: white;
+            margin-top: 30px;
+        }
+        
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .fonts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="loading" class="loading-overlay">Loading fonts...</div>
+    <div id="content">
+    <header>
+        <div class="container">
+            <h1>Star Trek Fonts Collection</h1>
+            <p>A comprehensive collection of Star Trek themed fonts for your projects</p>
+        </div>
+    </header>
+    
+    <div class="main-content">
+        <!-- Navigation sidebar -->
+        <nav class="nav-sidebar">
+            <div class="nav-header">
+                <h3>Font Navigation</h3>
+            </div>
+            <ul class="nav-tabs">
+                <li><a href="#" class="tab-link active" data-tab="title-fonts">Title Fonts</a></li>
+                <li><a href="#" class="tab-link" data-tab="text-fonts">Text Fonts</a></li>
+                <li><a href="#" class="tab-link" data-tab="alien-fonts">Alien Fonts</a></li>
+                <li><a href="#" class="tab-link" data-tab="font-pairs">Font Pairs</a></li>
+            </ul>
+            
+            <!-- Nav content panels -->
+            <div class="nav-content active" id="title-fonts-nav">
+                <!-- Links will be dynamically inserted here -->
+            </div>
+            
+            <div class="nav-content" id="text-fonts-nav">
+                <!-- Links will be dynamically inserted here -->
+            </div>
+            
+            <div class="nav-content" id="alien-fonts-nav">
+                <!-- Links will be dynamically inserted here -->
+            </div>
+            
+            <div class="nav-content" id="font-pairs-nav">
+                <!-- Links will be dynamically inserted here -->
+            </div>
+        </nav>
+        
+        <div class="content-area">
+    
+    <div class="container">
+        <section class="intro">
+            <h2>About This Collection</h2>
+            <p>This collection features a wide variety of Star Trek themed fonts that can be used in web projects. 
+               All fonts are available in TTF and EOT formats for maximum browser compatibility. The fonts are 
+               organized into three categories:</p>
+            
+            <ul style="margin: 15px 0 15px 30px;">
+                <li><strong>Title Fonts</strong> - For headers and display text</li>
+                <li><strong>Text Fonts</strong> - For body text and general use</li>
+                <li><strong>Alien Fonts</strong> - For special alien language styling</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Title Fonts</h2>
+            <div class="font-category">
+                <div class="fonts-grid" id="title-fonts-grid">
+                    <!-- Title fonts will be dynamically inserted here -->
+                    <p class="loading">Loading fonts...</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Text Fonts</h2>
+            <div class="font-category">
+                <div class="fonts-grid" id="text-fonts-grid">
+                    <!-- Text fonts will be dynamically inserted here -->
+                    <p class="loading">Loading fonts...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="alien-fonts-section">
+            <h2>Alien Fonts</h2>
+            <div class="font-category">
+                <div class="fonts-grid" id="alien-fonts-grid">
+                    <!-- Alien fonts will be dynamically inserted here -->
+                    <p class="loading">Loading fonts...</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="font-pairs-section">
+            <h2>Font Pairs</h2>
+            <div class="font-category">
+                <p>Effective font pairing enhances your design's visual hierarchy. Here are some suggested Star Trek font combinations that work well together:</p>
+                
+                <div class="fonts-grid" id="font-pairs-grid">
+                    <!-- Font pairs will be added here -->
+                    <div class="font-card pair-card">
+                        <h3>Modern Trek</h3>
+                        <div class="pair-example">
+                            <h4 style="font-family: 'EdgeOfTheGalaxyRegular-OVEa6', sans-serif; letter-spacing: 0.15em;">DISCOVERY</h4>
+                            <p style="font-family: 'Probert-Vey6', sans-serif;">Boldly going where no one has gone before</p>
+                        </div>
+                        <pre class="code"><code>&lt;!-- HTML --&gt;
+&lt;h1 style="font-family: 'EdgeOfTheGalaxyRegular-OVEa6', sans-serif; letter-spacing: 0.15em;"&gt;DISCOVERY&lt;/h1&gt;
+&lt;p style="font-family: 'Probert-Vey6', sans-serif;"&gt;Boldly going where no one has gone before&lt;/p&gt;
+
+/* CSS */
+.modern-trek-title { 
+  font-family: 'EdgeOfTheGalaxyRegular-OVEa6', sans-serif; 
+  letter-spacing: 0.15em; 
+}
+.modern-trek-text { font-family: 'Probert-Vey6', sans-serif; }</code></pre>
+                        <button class="copy-button" data-code="&lt;link rel='stylesheet' href='https://lquessenberry.github.io/scifi-fonts/webfonts/all-fonts.css'&gt;\n&lt;style&gt;\n.modern-trek-title { font-family: 'EdgeOfTheGalaxyRegular-OVEa6', sans-serif; letter-spacing: 0.15em; }\n.modern-trek-text { font-family: 'Probert-Vey6', sans-serif; }\n&lt;/style&gt;\n&lt;h1 class='modern-trek-title'&gt;DISCOVERY&lt;/h1&gt;\n&lt;p class='modern-trek-text'&gt;Boldly going where no one has gone before&lt;/p&gt;">
+                            Copy Embed Code
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="usage">
+            <h2>Usage Instructions</h2>
+            
+            <h3>Using in HTML/CSS</h3>
+            <p>To use these fonts in your web project:</p>
+            <ol style="margin: 15px 0 15px 30px;">
+                <li>Download the font files you need or link directly to the GitHub CDN</li>
+                <li>Add the @font-face declaration in your CSS (see examples above)</li>
+                <li>Apply the font-family to your elements</li>
+                <li>Make sure to include fallback fonts for better compatibility</li>
+            </ol>
+
+            <div class="code-block">
+                <h4>HTML Example:</h4>
+                &lt;h1 style="font-family: 'TNG Title', sans-serif;"&gt;Star Trek: The Next Generation&lt;/h1&gt;<br>
+                &lt;p style="font-family: 'Federation', sans-serif;"&gt;United Federation of Planets&lt;/p&gt;<br>
+                &lt;div style="font-family: 'Klingon', sans-serif;"&gt;Qapla'&lt;/div&gt;
+                &lt;span style="font-family: 'Bajoran', sans-serif;"&gt;Deep Space Nine&lt;/span&gt;
+            </div>
+            
+            <h3>Using with GitHub Pages</h3>
+            <p>If you're hosting on GitHub Pages, use site-rooted paths:</p>
+            <div class="code-block">
+                @font-face {<br>
+                &nbsp;&nbsp;font-family: 'TNG Title';<br>
+                &nbsp;&nbsp;src: url('/scifi-fonts/webfonts/startrek/title-fonts/TNG_Title/TNG_Title.eot');<br>
+                &nbsp;&nbsp;src: url('/scifi-fonts/webfonts/startrek/title-fonts/TNG_Title/TNG_Title.eot?#iefix') format('embedded-opentype'),<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url('/scifi-fonts/webfonts/startrek/title-fonts/TNG_Title/TNG_Title.ttf') format('truetype');<br>
+                }
+            </div>
+
+            <h3>Browser Support</h3>
+            <p>These fonts are provided in TTF and EOT formats, which cover most modern browsers. EOT format ensures 
+               compatibility with Internet Explorer, while TTF works well in most other browsers.</p>
+        </section>
+        </div><!-- End content-area -->
+    </div><!-- End main-content -->
+    
+    <footer>
+        <div class="container">
+            <p>Hosted on GitHub Pages | <a href="https://github.com/lquessenberry/scifi-fonts" target="_blank">View on GitHub</a></p>
+            <p>Fonts sourced from <a href="https://www.st-minutiae.com/resources/fonts/index.html" target="_blank">Star Trek Minutiae</a></p>
+        </div>
+    </footer>
+    
+    <script>
+        // Font data will be loaded from this file
+        let fonts = {};
+        
+        // Font-specific styling configurations
+        const fontConfigs = {
+            // Example configurations - adjust these based on testing each font
+            // Font name should match the CSS font-family name
+            
+            // Edge of the Galaxy variants - fine-tuned individually
+            'EdgeOfTheGalaxyHollow-9Yvxj': { letterSpacing: '0.12em', wordSpacing: '0.2em' },
+            'EdgeOfTheGalaxyItalic-ZVJB3': { letterSpacing: '0.14em', wordSpacing: '0.22em', lineHeight: '1.2' },
+            'EdgeOfTheGalaxyOutline-p730G': { letterSpacing: '0.15em', wordSpacing: '0.25em' },
+            'EdgeOfTheGalaxyPoster-3zRAp': { letterSpacing: '0.18em', wordSpacing: '0.22em' },
+            'EdgeOfTheGalaxyPosterItalic-x3o1m': { letterSpacing: '0.18em', wordSpacing: '0.24em', lineHeight: '1.2' },
+            'EdgeOfTheGalaxyRegular-OVEa6': { letterSpacing: '0.15em', wordSpacing: '0.2em' },
+            'EdgeOfTheGalaxyRegular-OVZx6': { letterSpacing: '0.14em', wordSpacing: '0.18em' },
+            'EdgeOfTheGalaxyRough-4vLM': { letterSpacing: '0.16em', wordSpacing: '0.2em' },
+            'EdgeOfTheGalaxyStardate-zyd7': { letterSpacing: '0.2em', wordSpacing: '0.3em' },
+            
+            // Other Star Trek fonts
+            'Federation': { letterSpacing: '0.05em' },
+            'Federation Classic': { letterSpacing: '0.02em' },
+            'Jefferies Extended': { letterSpacing: '-0.02em' },
+            'Khan': { letterSpacing: '0.04em' },
+            'LCARS': { letterSpacing: '0.15em' },
+            'Star Trek Enterprise': { letterSpacing: '-0.03em' },
+            // Removed problematic BT fonts
+            'TNG Credits': { letterSpacing: '0.1em' },
+            'TNG Title': { letterSpacing: '0.12em' },
+            'TOS Title': { letterSpacing: '0.2em', wordSpacing: '0.3em' },
+            // Add more font configurations as needed
+        };
+
+        // Load the font data from the JSON file
+        fetch('webfonts/all-fonts.json')
+            .then(response => response.json())
+            .then(data => {
+                fonts = data;
+                initializeFonts();
+            })
+            .catch(error => {
+                console.error('Error loading font data:', error);
+                const loadingElement = document.getElementById('loading');
+                if (loadingElement) {
+                    loadingElement.textContent = 'Error loading fonts. Please check console for details.';
+                }
+            });
+
+        // Function to create a font card
+        function createFontCard(fontName, category) {
+            const card = document.createElement('div');
+            card.className = 'font-card';
+            
+            // Convert font name with underscores to display name with spaces
+            const displayName = fontName.replace(/_/g, ' ');
+            
+            const title = document.createElement('h3');
+            title.textContent = displayName;
+            title.style.fontFamily = `"${displayName}", sans-serif`;
+            
+            // Sample text styled with this font
+            const sample = document.createElement('div');
+            sample.className = 'font-sample';
+            sample.style.fontFamily = `"${displayName}", sans-serif`;
+            
+            // Apply font-specific styling configuration if available
+            if (fontConfigs[displayName]) {
+                const config = fontConfigs[displayName];
+                if (config.letterSpacing) sample.style.letterSpacing = config.letterSpacing;
+                if (config.wordSpacing) sample.style.wordSpacing = config.wordSpacing;
+                if (config.lineHeight) sample.style.lineHeight = config.lineHeight;
+                // Apply any other custom font settings
+            }
+            
+            sample.textContent = 'The quick brown fox jumps over the lazy dog.';
+            
+            // Also apply the same styling to the title if needed
+            if (fontConfigs[displayName]) {
+                const config = fontConfigs[displayName];
+                if (config.letterSpacing) title.style.letterSpacing = config.letterSpacing;
+                if (config.wordSpacing) title.style.wordSpacing = config.wordSpacing;
+            }
+            
+            const example = document.createElement('p');
+            example.className = 'font-example';
+            example.style.fontFamily = `"${displayName}", sans-serif`;
+            
+            // Different text for different categories
+            if (category === 'title-fonts') {
+                example.textContent = 'STAR TREK: THE NEXT GENERATION';
+            } else if (category === 'alien-fonts') {
+                example.textContent = 'Live long and prosper';
+            } else {
+                example.textContent = 'United Federation of Planets';
+            }
+            
+            // Add spacing configuration used (if any) to the code block
+            const codeBlock = document.createElement('pre');
+            codeBlock.className = 'code';
+            let codeHTML = `<code>font-family: "${displayName}", sans-serif;`;
+            
+            if (fontConfigs[displayName]) {
+                const config = fontConfigs[displayName];
+                if (config.letterSpacing) codeHTML += `\nletter-spacing: ${config.letterSpacing};`;
+                if (config.wordSpacing) codeHTML += `\nword-spacing: ${config.wordSpacing};`;
+                if (config.lineHeight) codeHTML += `\nline-height: ${config.lineHeight};`;
+            }
+            
+            codeHTML += '</code>';
+            codeBlock.innerHTML = codeHTML;
+            
+            card.appendChild(title);
+            card.appendChild(sample);
+            card.appendChild(example);
+            card.appendChild(codeBlock);
+            
+            return card;
+        }
+
+        // Initialize fonts after data is loaded
+        function initializeFonts() {
+            // Wait for fonts to load before showing content
+            document.fonts.ready.then(() => {
+                const loadingElement = document.getElementById('loading');
+                const contentElement = document.getElementById('content');
+                
+                if (loadingElement) loadingElement.style.display = 'none';
+                if (contentElement) contentElement.style.display = 'block';
+                
+                // For each category, populate its grid
+                Object.keys(fonts).forEach(category => {
+                    const gridId = `${category}-grid`;
+                    const grid = document.getElementById(gridId);
+                    
+                    if (!grid) {
+                        console.warn(`Grid element not found: ${gridId}`);
+                        return;
+                    }
+                    
+                    // Clear any existing content
+                    grid.innerHTML = '';
+                    
+                    // Clear any existing font links in the navigation
+                    const navContentId = `${category}-nav`;
+                    const navContent = document.getElementById(navContentId);
+                    if (navContent) {
+                        navContent.innerHTML = '';
+                    }
+                    
+                    // Add each font in this category
+                    fonts[category].forEach((fontName, index) => {
+                        // Convert font name with underscores to display name with spaces
+                        const displayName = fontName.replace(/_/g, ' ');
+                        
+                        // Create an ID for the font card
+                        const fontId = `font-${category}-${index}`;
+                        
+                        // Create font card
+                        const card = createFontCard(fontName, category);
+                        card.id = fontId; // Set ID for anchor linking
+                        grid.appendChild(card);
+                        
+                        // Add a link in the sidebar navigation
+                        if (navContent) {
+                            const link = document.createElement('a');
+                            link.href = `#${fontId}`;
+                            link.className = 'font-link';
+                            link.textContent = displayName;
+                            navContent.appendChild(link);
+                        }
+                    });
+                });
+                
+                // Add font pairs to the navigation
+                const fontPairsNav = document.getElementById('font-pairs-nav');
+                if (fontPairsNav) {
+                    const pairsList = document.querySelectorAll('.pair-card h3');
+                    pairsList.forEach((pairTitle, index) => {
+                        const pairId = `pair-${index}`;
+                        pairTitle.parentNode.id = pairId;
+                        
+                        const link = document.createElement('a');
+                        link.href = `#${pairId}`;
+                        link.className = 'font-link';
+                        link.textContent = pairTitle.textContent;
+                        fontPairsNav.appendChild(link);
+                    });
+                }
+                
+                // Add copy functionality to all copy buttons
+                setupCopyButtons();
+                
+                // Initialize tab navigation
+                setupTabNavigation();
+            }).catch(err => {
+                console.error('Error loading fonts:', err);
+                const loadingElement = document.getElementById('loading');
+                if (loadingElement) {
+                    loadingElement.textContent = 'Error loading fonts. Please check console for details.';
+                }
+            });
+        }
+        
+        // Setup copy buttons for embeddable scripts
+        function setupCopyButtons() {
+            const copyButtons = document.querySelectorAll('.copy-button');
+            copyButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const codeToEmbed = this.getAttribute('data-code');
+                    navigator.clipboard.writeText(codeToEmbed)
+                        .then(() => {
+                            const originalText = this.textContent;
+                            this.textContent = 'Copied!';
+                            this.style.backgroundColor = '#4CAF50';
+                            
+                            setTimeout(() => {
+                                this.textContent = originalText;
+                                this.style.backgroundColor = '';
+                            }, 2000);
+                        })
+                        .catch(err => {
+                            console.error('Failed to copy code:', err);
+                            alert('Failed to copy code. Please try again.');
+                        });
+                });
+            });
+        }
+        
+        // Setup tab navigation functionality
+        function setupTabNavigation() {
+            const tabLinks = document.querySelectorAll('.tab-link');
+            const navContents = document.querySelectorAll('.nav-content');
+            
+            tabLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove active class from all tabs and contents
+                    tabLinks.forEach(t => t.classList.remove('active'));
+                    navContents.forEach(c => c.classList.remove('active'));
+                    
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    
+                    // Show corresponding content
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(`${tabId}-nav`).classList.add('active');
+                });
+            });
+        }
+    </script>
+</body>
+</html>
