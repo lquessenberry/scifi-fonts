@@ -19,31 +19,31 @@ body {
 
 /* Font face declarations */
 @font-face {
-    font-family: 'Federation';
-    src: url('./fonts/federation.ttf') format('truetype');
+    font-family: 'Star Trek';
+    src: url('./fonts/trekerprise/Star Trek BT.TTF') format('truetype');
 }
 
 @font-face {
-    font-family: 'Klingon';
-    src: url('./fonts/klingon.ttf') format('truetype');
+    font-family: 'Star Trek Film';
+    src: url('./fonts/trekerprise/Star Trek Film BT.TTF') format('truetype');
 }
 
 @font-face {
-    font-family: 'Vulcan';
-    src: url('./fonts/vulcan.ttf') format('truetype');
+    font-family: 'Starfleet Bold Extended';
+    src: url('./fonts/trekerprise/Starfleet Bold Extended BT.TTF') format('truetype');
 }
 
 /* Typography */
 .federation {
-    font-family: 'Federation', sans-serif;
+    font-family: 'Star Trek', sans-serif;
 }
 
 .klingon {
-    font-family: 'Klingon', sans-serif;
+    font-family: 'Star Trek Film', sans-serif;
 }
 
 .vulcan {
-    font-family: 'Vulcan', sans-serif;
+    font-family: 'Starfleet Bold Extended', sans-serif;
 }
 
 /* Layout */

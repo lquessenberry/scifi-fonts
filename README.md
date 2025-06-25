@@ -1,6 +1,6 @@
 # Sci-Fi Fonts Collection
 
-A collection of sci-fi themed fonts (primarily Star Trek inspired) hosted on GitHub Pages for easy embedding in web projects.
+A collection of sci-fi themed fonts organized by theme and hosted on GitHub Pages for easy embedding in web projects.
 
 ## Overview
 
@@ -14,22 +14,25 @@ You can use the fonts directly in your CSS by linking to the raw GitHub URLs. Fo
 
 ```css
 @font-face {
-  font-family: 'Federation';
-  src: url('https://raw.githubusercontent.com/yourusername/scifi-fonts/main/fonts/federation.ttf') format('truetype');
+  font-family: 'Star Trek';
+  src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/main/fonts/trekerprise/Star Trek BT.TTF') format('truetype');
 }
 
-.federation-text {
-  font-family: 'Federation', sans-serif;
+.startrek-text {
+  font-family: 'Star Trek', sans-serif;
 }
 ```
 
-Replace `yourusername` with your actual GitHub username once the repository is created.
+### Available Font Collections
 
-### Available Fonts
+### Trekerprise
 
-- Federation: A classic Star Trek inspired font
-- Klingon: Bold and aggressive Klingon-inspired typeface
-- Vulcan: Elegant and logical Vulcan script
+Star Trek inspired fonts:
+
+- Star Trek BT: A classic Star Trek inspired font
+- Star Trek Film BT: Bold Star Trek movie-style typeface
+- Starfleet Bold Extended BT: Clean, futuristic Starfleet-inspired font
+- Star Trek Pi BT: Star Trek symbols and icons
 
 ## Adding More Fonts
 
