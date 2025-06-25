@@ -15,7 +15,7 @@ You can use the fonts directly in your CSS by linking to the raw GitHub URLs. Fo
 ```css
 @font-face {
   font-family: 'Star Trek';
-  src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/main/fonts/trekerprise/Star Trek BT.TTF') format('truetype');
+  src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/fonts/trekerprise/Star Trek BT.TTF') format('truetype');
 }
 
 .startrek-text {
@@ -48,7 +48,7 @@ The fonts in this repository are for demonstration purposes. If you're using the
 
 ## GitHub Pages
 
-This repository is configured to use GitHub Pages, making the font collection accessible via a web interface at: https://yourusername.github.io/scifi-fonts/
+This repository is configured to use GitHub Pages, making the font collection accessible via a web interface at: [https://lquessenberry.github.io/scifi-fonts/](https://lquessenberry.github.io/scifi-fonts/)
 
 ---
 
