@@ -20,50 +20,50 @@ body {
 /* Font face declarations */
 @font-face {
     font-family: 'Star Trek';
-    src: url('./webfonts/trekerprise/Star_Trek_BT.eot');
-    src: url('./webfonts/trekerprise/Star_Trek_BT.eot?#iefix') format('embedded-opentype'),
-         url('./webfonts/trekerprise/Star_Trek_BT.woff') format('woff'),
-         url('./webfonts/trekerprise/Star Trek BT.TTF') format('truetype');
+    src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star_Trek_BT.eot');
+    src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star_Trek_BT.eot?#iefix') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star_Trek_BT.woff') format('woff'),
+         url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star Trek BT.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Star Trek Film';
-    src: url('./webfonts/trekerprise/Star_Trek_Film_BT.eot');
-    src: url('./webfonts/trekerprise/Star_Trek_Film_BT.eot?#iefix') format('embedded-opentype'),
-         url('./webfonts/trekerprise/Star_Trek_Film_BT.woff') format('woff'),
-         url('./webfonts/trekerprise/Star Trek Film BT.TTF') format('truetype');
+    src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star_Trek_Film_BT.eot');
+    src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star_Trek_Film_BT.eot?#iefix') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star_Trek_Film_BT.woff') format('woff'),
+         url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Star Trek Film BT.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Starfleet Bold Extended';
-    src: url('./webfonts/trekerprise/Starfleet_Bold_Extended_BT.eot');
-    src: url('./webfonts/trekerprise/Starfleet_Bold_Extended_BT.eot?#iefix') format('embedded-opentype'),
-         url('./webfonts/trekerprise/Starfleet_Bold_Extended_BT.woff') format('woff'),
-         url('./webfonts/trekerprise/Starfleet Bold Extended BT.TTF') format('truetype');
+    src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Starfleet_Bold_Extended_BT.eot');
+    src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Starfleet_Bold_Extended_BT.eot?#iefix') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Starfleet_Bold_Extended_BT.woff') format('woff'),
+         url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Starfleet Bold Extended BT.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Square 721 Condensed';
-    src: url('./webfonts/trekerprise/Square_721_Condensed_BT.eot');
-    src: url('./webfonts/trekerprise/Square_721_Condensed_BT.eot?#iefix') format('embedded-opentype'),
-         url('./webfonts/trekerprise/Square_721_Condensed_BT.woff') format('woff'),
-         url('./webfonts/trekerprise/Square 721 Condensed BT.TTF') format('truetype');
+    src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Square_721_Condensed_BT.eot');
+    src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Square_721_Condensed_BT.eot?#iefix') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Square_721_Condensed_BT.woff') format('woff'),
+         url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Square 721 Condensed BT.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Venetian 301';
-    src: url('./webfonts/trekerprise/Venetian_301_BT.eot');
-    src: url('./webfonts/trekerprise/Venetian_301_BT.eot?#iefix') format('embedded-opentype'),
-         url('./webfonts/trekerprise/Venetian_301_BT.woff') format('woff'),
-         url('./webfonts/trekerprise/Venetian 301 BT.TTF') format('truetype');
+    src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Venetian_301_BT.eot');
+    src: url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Venetian_301_BT.eot?#iefix') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Venetian_301_BT.woff') format('woff'),
+         url('https://raw.githubusercontent.com/lquessenberry/scifi-fonts/master/webfonts/trekerprise/Venetian 301 BT.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
