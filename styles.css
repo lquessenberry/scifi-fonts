@@ -1,0 +1,128 @@
+/* Base styles */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-color: #ecf0f1;
+    --code-bg: #1c2833;
+    --card-bg: #2c3e50;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Font face declarations */
+@font-face {
+    font-family: 'Federation';
+    src: url('./fonts/federation.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Klingon';
+    src: url('./fonts/klingon.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Vulcan';
+    src: url('./fonts/vulcan.ttf') format('truetype');
+}
+
+/* Typography */
+.federation {
+    font-family: 'Federation', sans-serif;
+}
+
+.klingon {
+    font-family: 'Klingon', sans-serif;
+}
+
+.vulcan {
+    font-family: 'Vulcan', sans-serif;
+}
+
+/* Layout */
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: var(--secondary-color);
+    border-bottom: 4px solid var(--accent-color);
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+/* Font cards */
+.font-card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.font-sample {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    line-height: 1.8;
+}
+
+/* Code blocks */
+.code-block {
+    background-color: var(--code-bg);
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.code-block code {
+    font-family: 'Consolas', 'Monaco', monospace;
+    white-space: pre;
+    color: #e74c3c;
+}
+
+/* Links */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: var(--secondary-color);
+    border-top: 4px solid var(--accent-color);
+    margin-top: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .font-sample {
+        font-size: 1.2rem;
+    }
+}

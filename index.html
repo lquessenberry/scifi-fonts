@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sci-Fi Fonts Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sci-Fi Fonts Collection</h1>
+        <p>A collection of sci-fi themed fonts for your projects</p>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <h2>About This Collection</h2>
+            <p>This repository hosts a collection of sci-fi themed fonts that can be used in web projects. 
+               The fonts are accessible via GitHub raw URLs, making them easy to embed in your websites or applications.</p>
+        </section>
+
+        <section class="fonts">
+            <h2>Available Fonts</h2>
+            
+            <div class="font-card">
+                <h3 class="federation">Federation</h3>
+                <p>A classic Star Trek inspired font</p>
+                <div class="font-sample federation">
+                    ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+                    abcdefghijklmnopqrstuvwxyz<br>
+                    0123456789
+                </div>
+                <div class="code-block">
+                    <h4>How to Use:</h4>
+                    <code>
+                        @font-face {<br>
+                        &nbsp;&nbsp;font-family: 'Federation';<br>
+                        &nbsp;&nbsp;src: url('https://raw.githubusercontent.com/yourusername/scifi-fonts/main/fonts/federation.ttf') format('truetype');<br>
+                        }<br><br>
+                        .federation-text {<br>
+                        &nbsp;&nbsp;font-family: 'Federation', sans-serif;<br>
+                        }
+                    </code>
+                </div>
+            </div>
+
+            <div class="font-card">
+                <h3 class="klingon">Klingon</h3>
+                <p>Bold and aggressive Klingon-inspired typeface</p>
+                <div class="font-sample klingon">
+                    ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+                    abcdefghijklmnopqrstuvwxyz<br>
+                    0123456789
+                </div>
+                <div class="code-block">
+                    <h4>How to Use:</h4>
+                    <code>
+                        @font-face {<br>
+                        &nbsp;&nbsp;font-family: 'Klingon';<br>
+                        &nbsp;&nbsp;src: url('https://raw.githubusercontent.com/yourusername/scifi-fonts/main/fonts/klingon.ttf') format('truetype');<br>
+                        }<br><br>
+                        .klingon-text {<br>
+                        &nbsp;&nbsp;font-family: 'Klingon', sans-serif;<br>
+                        }
+                    </code>
+                </div>
+            </div>
+
+            <div class="font-card">
+                <h3 class="vulcan">Vulcan</h3>
+                <p>Elegant and logical Vulcan script</p>
+                <div class="font-sample vulcan">
+                    ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+                    abcdefghijklmnopqrstuvwxyz<br>
+                    0123456789
+                </div>
+                <div class="code-block">
+                    <h4>How to Use:</h4>
+                    <code>
+                        @font-face {<br>
+                        &nbsp;&nbsp;font-family: 'Vulcan';<br>
+                        &nbsp;&nbsp;src: url('https://raw.githubusercontent.com/yourusername/scifi-fonts/main/fonts/vulcan.ttf') format('truetype');<br>
+                        }<br><br>
+                        .vulcan-text {<br>
+                        &nbsp;&nbsp;font-family: 'Vulcan', sans-serif;<br>
+                        }
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section class="usage">
+            <h2>Usage Instructions</h2>
+            
+            <h3>Using in HTML/CSS</h3>
+            <p>To use these fonts in your web project:</p>
+            <ol>
+                <li>Add the @font-face declaration in your CSS (see examples above)</li>
+                <li>Apply the font-family to your elements</li>
+                <li>Make sure to include fallback fonts for better compatibility</li>
+            </ol>
+
+            <div class="code-block">
+                <h4>HTML Example:</h4>
+                <code>
+                    &lt;h1 class="federation-text"&gt;Star Trek Inspired Heading&lt;/h1&gt;<br>
+                    &lt;p class="klingon-text"&gt;This text will use the Klingon font&lt;/p&gt;<br>
+                    &lt;div class="vulcan-text"&gt;Logic is the beginning of wisdom, not the end.&lt;/div&gt;
+                </code>
+            </div>
+
+            <h3>Browser Support</h3>
+            <p>These fonts are provided in TTF format, which is supported by most modern browsers. 
+               For wider compatibility, you may want to convert them to other formats (like WOFF2, WOFF, EOT) 
+               using tools like <a href="https://www.fontsquirrel.com/tools/webfont-generator">Font Squirrel's Webfont Generator</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hosted on GitHub Pages | <a href="https://github.com/yourusername/scifi-fonts">View on GitHub</a></p>
+    </footer>
+</body>
+</html>
